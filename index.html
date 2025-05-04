@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 2 Assignment - HTML5 Elements</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>HTML5 Features Demo</h1>
+    <p>Explore lists, images, tables, forms, audio, and video elements.</p>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Topics Covered</h2>
+    <ol type="I">
+      <li>HTML Images</li>
+      <li>Lists</li>
+      <li>Tables</li>
+      <li>Forms and Input Types</li>
+      <li>Multimedia Elements</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Sample Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Mountain Landscape" width="600"/>
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>123 Main Street</td>
+          <td>+1 234-567-8901</td>
+          <td>alice@yahoo.com</td>
+        </tr>
+        <tr>
+          <td>Bob Smith</td>
+          <td>456 Elm Avenue</td>
+          <td>+1 987-654-3210</td>
+          <td>bob@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Charlie Brown</td>
+          <td>789 Maple Lane</td>
+          <td>+1 555-123-4567</td>
+          <td>charlie@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Diana Prince</td>
+          <td>321 Oak Drive</td>
+          <td>+1 444-555-6666</td>
+          <td>diana@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Edward King</td>
+          <td>654 Pine Street</td>
+          <td>+1 333-222-1111</td>
+          <td>edward@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="you@example.com" required /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6" /><br /><br />
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br />
+      <select id="country" name="country" required>
+        <option value="">-- Select your country --</option>
+        <option value="ng">Nigeria</option>
+        <option value="uk">United Kingdom</option>
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+      </select><br /><br />
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="checkbox" id="css" name="skills" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="checkbox" id="js" name="skills" value="JavaScript" />
+      <label for="js">JavaScript</label><br /><br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia Section</h2>
+    
+    <!-- Audio -->
+    <h3>Sample Audio</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Sample Video</h3>
+    <video width="600" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 - HTML5 Assignment by Dayib</p>
+  </footer>
+
+</body>
+</html>
